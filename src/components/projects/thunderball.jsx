@@ -58,7 +58,7 @@ export default class Thunderball extends Component {
                   </div>
                 </div>
                 <video style={{ marginBottom: '5vh' }} className="img-fluid" controls>
-                  <source src="videos/video.mp4" type="video/mp4" />
+                  <source src="videos/thunderball.mp4" type="video/mp4" />
                 </video>
                 <p className="text-center"><a href="https://moawinberg.github.io/thunderball-pages/"
                   className="button button--red">Visit Website</a></p>

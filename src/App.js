@@ -13,7 +13,7 @@ import InformationVisualization from './components/projects/information-visualiz
 import InsulinPump from './components/projects/insulin-pump'
 import TagAr from './components/projects/tag-ar'
 import Thunderball from './components/projects/thunderball'
-import UrbanKultur from './components/projects/urban-kultur'
+import Krets from './components/projects/krets'
 import Vibb from './components/projects/vibb'
 import ScrollToTop from './components/scroll-to-top'
 
@@ -25,7 +25,7 @@ class Main extends Component {
         <Route exact path='/work' component={Work}></Route>
         <Route exact path='/about' component={About}></Route>
         <Route exact path='/contact' component={Contact}></Route>
-        <Route exact path='/urban-kultur' component={UrbanKultur}></Route>
+        <Route exact path='/krets-studio' component={Krets}></Route>
         <Route exact path='/tag-ar' component={TagAr}></Route>
         <Route exact path='/thunderball' component={Thunderball}></Route>
         <Route exact path='/computer-graphics' component={ComputerGraphics}></Route>

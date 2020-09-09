@@ -29,8 +29,7 @@ export default class About extends Component {
               </div>
               <div className="col-md-6">
                 <p>I am a developer based in Stockholm. My main area is
-                front-end development but I also work with database relations and back-end in
-            Ruby on Rails.</p>
+                front-end development for web, but I am also experienced of back-end in Ruby on Rails and interaction design.</p>
               </div>
 
               <div className="col-md-6">
@@ -66,7 +65,7 @@ export default class About extends Component {
                   </div>
                   <div className="media-body">
                     <h3 className="h5">Tools</h3>
-                    <p>Sketch, GitHub, Terminal, Bootstrap</p>
+                    <p>Sketch, Figma, GitHub, Trello, Jira</p>
                   </div>
                 </div>
               </div>
@@ -76,8 +75,8 @@ export default class About extends Component {
                     <span className="icon-command display-3"></span>
                   </div>
                   <div className="media-body">
-                    <h3 className="h5">Languages</h3>
-                    <p>CSS, Sass, HTML, JavaScript Swift, Ruby, Python, MATLAB</p>
+                    <h3 className="h5">Programming Languages</h3>
+                    <p>JavaScript, HTML, CSS, Ruby, Python, SQL, Git, Swift</p>
                   </div>
                 </div>
               </div>
@@ -88,7 +87,7 @@ export default class About extends Component {
                   </div>
                   <div className="media-body">
                     <h3 className="h5">Frameworks</h3>
-                    <p>AngularJS, ReactJS, Rails</p>
+                    <p>AngularJS, ReactJS, Rails, D3</p>
                   </div>
                 </div>
               </div>

@@ -15,6 +15,7 @@ export default class Footer extends Component {
               </p>
             </div>
             <div className="col-md-6 text-md-right text-center footer-social">
+              <a href="https://www.linkedin.com/in/moawinberg/" className="p-3"><span className="icon-github-square"></span></a>
               <a href="https://www.linkedin.com/in/moawinberg/" className="p-3"><span className="icon-linkedin2"></span></a>
             </div>
           </div>

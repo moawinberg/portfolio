@@ -39,7 +39,7 @@ export default class Home extends Component {
                       <div className="media-body">
                         <h3 className="h5">Front-end development</h3>
                         <p>
-                          Front-end development for web in javascript, HTML, CSS/Sass and with frameworks such as AngularJS and ReactJS.
+                          JavaScript, HTML, CSS, Swift, AngularJS, ReactJS.
                       </p>
                       </div>
                     </div>
@@ -51,7 +51,7 @@ export default class Home extends Component {
                       </div>
                       <div className="media-body">
                         <h3 className="h5">Back-end development</h3>
-                        <p>Back-end in Ruby on Rails for web applications. I also have experience of Python.</p>
+                        <p>Python, Ruby on Rails, SQL and database relations</p>
                       </div>
                     </div>
                   </div>
@@ -65,7 +65,7 @@ export default class Home extends Component {
                       </div>
                       <div className="media-body">
                         <h3 className="h5">Prototyping/Design</h3>
-                        <p>Prototyping for iOS/Web applications in Sketch or mockups.</p>
+                        <p>Prototyping in Sketch and Figma.</p>
                       </div>
                     </div>
                   </div>
@@ -76,7 +76,7 @@ export default class Home extends Component {
                       </div>
                       <div className="media-body">
                         <h3 className="h5">Project Planning</h3>
-                        <p>Setting up and working with sprints in Jira and Trello.</p>
+                        <p>Working with sprints in Jira/Trello.</p>
                       </div>
                     </div>
                   </div>

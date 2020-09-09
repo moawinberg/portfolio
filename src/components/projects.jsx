@@ -9,13 +9,13 @@ export default class Projects extends Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6" data-aos="fade-up">
-                <NavLink className="project animsition-link" to="/urban-kultur">
+                <NavLink className="project animsition-link" to="/krets-studio">
                   <figure>
-                    <img alt="project" src="images/p6.jpg" className="img-fluid" />
+                    <img alt="project" src="images/p6.png" className="img-fluid" />
                   </figure>
                   <div className="project-hover">
                     <div className="project-hover-inner">
-                      <h2>Urban Kultur</h2>
+                      <h2>Krets Studio</h2>
                       <span>View Project</span>
                     </div>
                   </div>

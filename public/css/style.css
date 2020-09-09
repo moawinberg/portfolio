@@ -127,7 +127,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project, .post { position: relative; float: left; width: 100%; margin-bottom: 30px; }
 
-.project figure, .post figure { margin: 0; position: relative; }
+.project figure, .post figure { margin: 0; position: relative; border: 1px solid lightgray }
 
 .project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(220, 53, 69, 0.9); visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 

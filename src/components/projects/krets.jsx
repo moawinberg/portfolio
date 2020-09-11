@@ -30,7 +30,7 @@ export default class Krets extends Component {
                   </div>
                   <div className="col-md-4">
                     <span className="caption">Company</span>
-                    <strong>Krets Studoi</strong>
+                    <strong>Krets Studio</strong>
                   </div>
                 </div>
                 <div className="row">

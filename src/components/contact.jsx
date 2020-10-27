@@ -20,7 +20,7 @@ export default class Contact extends Component {
           <div className="container">
             <div className="mr-4 icon">
               <span className="icon-mail" style={{ marginRight: '3px' }}></span>
-              <a href="mailto:moa.winberg@outlook.com">moa.winberg@outlook.com</a>
+              <a href="mailto:moawini@kth.se">moawin@kth.se</a>
             </div>
             <div className="mr-4 icon">
               <span className="icon-phone2" style={{ marginRight: '3px' }}></span>

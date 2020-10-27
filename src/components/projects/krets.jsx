@@ -47,7 +47,7 @@ export default class Krets extends Component {
                 <p className="text-center mb-5"><img src="images/p6.png" alt="project" className="img-fluid" /></p>
                 <div className="row mb-5">
                   <div className="col-md-6">
-                    <p>The website was created in HTML, CSS, JavaScrupt and ReactJS. The design was provided by the team at Krets Studio.</p>
+                    <p>The website was created in HTML, CSS, JavaScript and ReactJS. The design was provided by the team at Krets Studio.</p>
                   </div>
                   <div className="col-md-6">
                     <p>Instagram images and videos from Krets account are fetched with the Instagram API and

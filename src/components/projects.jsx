@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom'
 export default class Projects extends Component {
   render() {
     return (
-      <div className="projects">
+      <div className="projects" style={{ marginTop: '10vh' }}>
         <section className="templateux-portfolio-overlap" id="next">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6" data-aos="fade-up">
-                <NavLink className="project animsition-link" to="/krets-studio">
+                <NavLink className="project" to="/krets-studio">
                   <figure>
                     <img alt="project" src="images/p6.png" className="img-fluid" />
                   </figure>
@@ -22,7 +22,7 @@ export default class Projects extends Component {
                 </NavLink>
               </div>
               <div className="col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <NavLink className="project animsition-link" to="/tag-ar">
+                <NavLink className="project" to="/tag-ar">
                   <figure>
                     <img alt="project" src="images/p2.jpg" className="img-fluid" />
                   </figure>
@@ -38,7 +38,7 @@ export default class Projects extends Component {
 
             <div className="row">
               <div className="col-lg-4 col-md-6" data-aos="fade-up">
-                <NavLink className="project animsition-link" to="/thunderball">
+                <NavLink className="project" to="/thunderball">
                   <figure>
                     <img alt="project" src="images/p1.jpg" className="img-fluid" />
                   </figure>
@@ -51,7 +51,7 @@ export default class Projects extends Component {
                 </NavLink>
               </div>
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <NavLink className="project animsition-link" to="/information-visualization">
+                <NavLink className="project" to="/information-visualization">
                   <figure>
                     <img alt="project" src="images/p5.jpg" className="img-fluid" />
                   </figure>
@@ -64,7 +64,7 @@ export default class Projects extends Component {
                 </NavLink>
               </div>
               <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <NavLink className="project animsition-link" to="/computer-graphics">
+                <NavLink className="project" to="/computer-graphics">
                   <figure>
                     <img alt="project" src="images/p4.jpg" className="img-fluid" />
                   </figure>
@@ -80,7 +80,7 @@ export default class Projects extends Component {
 
             <div className="row">
               <div className="col-md-6" data-aos="fade-up">
-                <NavLink className="project animsition-link" to="/insulin-pump">
+                <NavLink className="project" to="/insulin-pump">
                   <figure>
                     <img alt="project" src="images/p3.jpg" className="img-fluid" />
                   </figure>
@@ -93,7 +93,7 @@ export default class Projects extends Component {
                 </NavLink>
               </div>
               <div className="col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <NavLink className="project animsition-link" to="/vibb">
+                <NavLink className="project" to="/vibb">
                   <figure>
                     <img alt="project" src="images/p8.jpg" className="img-fluid" />
                   </figure>

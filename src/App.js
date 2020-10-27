@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { NavLink, Switch, Route } from 'react-router-dom'
+import { NavLink, Switch, Route, useLocation } from 'react-router-dom'
+import { withRouter } from "react-router";
 
 import Footer from './components/footer'
 import Home from './components/home'
@@ -37,71 +38,33 @@ class Main extends Component {
   }
 }
 
-class Navbar extends Component {
-  // FIXME: handle classname for active link
-  constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-    this.state = {
-      page: 'home'
-    };
-  }
-
-  handleClick() {
-    this.setState({ page: 'home' });
-  }
-
-  componentDidMount() {
-    const location = window.location.href;
-    if (location.endsWith('about')) {
-      this.setState({ page: 'about' });
-    } else if (
-      location.endsWith('work') ||
-      location.endsWith('urban-kultur') ||
-      location.endsWith('tag-ar') ||
-      location.endsWith('vibb') ||
-      location.endsWith('thunderball') ||
-      location.endsWith('insulin-pump') ||
-      location.endsWith('information-visualization') ||
-      location.endsWith('computer-graphics')
-    ) {
-      this.setState({ page: 'work' });
-    } else if (location.endsWith('contact')) {
-      this.setState({ page: 'contact' });
-    } else {
-      this.setState({ page: 'home' });
-    }
-  }
-  //
-  
-  render() {
-    return (
-      <header className={this.state.page === 'about' ? 'templateux-navbar navbar-light' : "templateux-navbar"} data-aos="fade-down">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-sm-3 col-3">
-              <div className="site-logo"><NavLink className="animsition-link" onClick={this.handleClick} to="/">MW</NavLink></div>
-            </div>
-            <div className="col-sm-9 col-9 text-right">
-              <button className="hamburger hamburger--spin toggle-menu ml-auto js-toggle-menu" type="button">
-                <span className="hamburger-box">
-                  <span className="hamburger-inner"></span>
-                </span>
-              </button>
-              <nav className="templateux-menu js-templateux-menu" role="navigation">
-                <ul className="list-unstyled">
-                  <li className={this.state.page === 'home' ? 'active' : null}><NavLink className="animsition-link" onClick={this.handleClick} to="/">Home</NavLink></li>
-                  <li className={this.state.page === 'work' ? 'active' : null}><NavLink className="animsition-link" to="/work">Work</NavLink></li>
-                  <li className={this.state.page === 'about' ? 'active' : null}><NavLink className="animsition-link" to="/about">About</NavLink></li>
-                  <li className={this.state.page === 'contact' ? 'active' : null}><NavLink className="animsition-link" to="/contact">Contact</NavLink></li>
-                </ul>
-              </nav>
-            </div>
+function Navbar() {
+  const location = useLocation();
+  return (
+    <header style={location.pathname === '/' ? { position: 'relative' } : { position: 'absolute' }} className={location.pathname === '/about' ? "templateux-navbar navbar-light" : "templateux-navbar"} data-aos="fade-down">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-6 col-6">
+            <div className="site-logo"><NavLink to="/">MOA WINBERG</NavLink></div>
+          </div>
+          <div className="col-sm-6 col-6 text-right">
+            <button className="hamburger hamburger--spin toggle-menu ml-auto js-toggle-menu" type="button">
+              <span className="hamburger-box">
+                <span className="hamburger-inner"></span>
+              </span>
+            </button>
+            <nav className="templateux-menu js-templateux-menu" role="navigation">
+              <ul className="list-unstyled">
+                <li><NavLink activeClassName="active" exact to="/">Portfolio</NavLink></li>
+                <li><NavLink activeClassName="active" to="/about">About</NavLink></li>
+                <li><NavLink activeClassName="active" to="/contact">Contact</NavLink></li>
+              </ul>
+            </nav>
           </div>
         </div>
-      </header>
-    );
-  }
+      </div>
+    </header>
+  )
 }
 
 class App extends Component {
@@ -118,5 +81,5 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
 

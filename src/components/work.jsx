@@ -7,7 +7,6 @@ export default class Work extends Component {
   render() {
     return (
       <div className="work">
-        <WorkHeader />
         <Projects />
         <ContactBanner />
       </div>

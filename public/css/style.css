@@ -22,7 +22,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .site-logo { position: relative; top: -10px; z-index: 9999; }
 
-.templateux-navbar .site-logo a { font-size: 30px; color: #000; }
+.templateux-navbar .site-logo a { font-size: 3vh; color: #000; }
 
 .templateux-navbar .templateux-menu { position: relative; }
 
@@ -32,16 +32,16 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .templateux-menu ul li a { margin-right: 20px; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: #000; position: relative; padding-bottom: 5px; display: block; }
 
-.templateux-navbar .templateux-menu ul li a:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #dc3545; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
+.templateux-navbar .templateux-menu ul li a.active:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #dc3545; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
 
 .templateux-navbar .templateux-menu ul li a:hover:before { width: 100%; }
 
-.templateux-navbar .templateux-menu ul li.active > a:before { width: 100%; }
+.templateux-navbar .templateux-menu ul li > a.active:before { width: 100%; }
 
 .templateux-navbar .templateux-menu ul li:last-child a { margin-right: 0; }
 
-@media (max-width: 767.98px) { .templateux-navbar .templateux-menu { position: fixed; width: 100%; background-color: #fff; top: 0; left: 0; margin: 0; text-align: left; height: 100vh; min-height: 400px; padding: 15px; display: none; padding-top: 100px; overflow-y: scroll; }
-  .templateux-navbar .templateux-menu ul { margin-left: 40px; }
+@media (max-width: 767.98px) { .templateux-navbar .templateux-menu { position: fixed; width: 100%; background-color: #fff; top: 0px; left: 0; margin: 0; text-align: left; height: 100vh; min-height: 400px; padding: 15px; display: none; padding-top: 100px; overflow-y: scroll; }
+  .templateux-navbar .templateux-menu ul { margin-left: 40px; margin-top: 30px }
   .templateux-navbar .templateux-menu ul li { display: block; margin-bottom: 10px; }
   .templateux-navbar .templateux-menu ul li a { padding: 10px 0 2px 0; font-size: 18px; display: inline-block; } }
 
@@ -127,7 +127,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project, .post { position: relative; float: left; width: 100%; margin-bottom: 30px; }
 
-.project figure, .post figure { margin: 0; position: relative; border: 1px solid lightgray }
+.project figure, .post figure { margin: 0; position: relative;}
 
 .project .project-hover, .project .post-hover, .post .project-hover, .post .post-hover { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(220, 53, 69, 0.9); visibility: hidden; opacity: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 

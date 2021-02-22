@@ -56,8 +56,6 @@ export default class ComputerGraphics extends Component {
                   </div>
                 </div>
                 <p className="text-center mb-5"><img src="images/p4_large.jpg" alt="project" className="img-fluid" /></p>
-                <p className="text-center"><a href="https://github.com/moawinberg/DH2323" className="button button--red">
-                  View on GitHub</a></p>
               </div>
             </div>
           </div>

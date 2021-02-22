@@ -61,7 +61,6 @@ export default class Vibb extends Component {
                 <video style={{ marginBottom: '5vh' }} className="img-fluid" controls>
                   <source src="videos/vibb.mp4" type="video/mp4" />
                 </video>
-                <p className="text-center"><a href="pdfs/vibb.pdf" className="button button--red">View Workbook</a></p>
               </div>
             </div>
           </div>

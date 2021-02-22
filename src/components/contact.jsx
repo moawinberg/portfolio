@@ -20,7 +20,7 @@ export default class Contact extends Component {
           <div className="container">
             <div className="mr-4 icon">
               <span className="icon-mail" style={{ marginRight: '3px' }}></span>
-              <a href="mailto:moawini@kth.se">moawin@kth.se</a>
+              <a href="mailto:moawin@kth.se">moawin@kth.se</a>
             </div>
             <div className="mr-4 icon">
               <span className="icon-phone2" style={{ marginRight: '3px' }}></span>
@@ -29,10 +29,10 @@ export default class Contact extends Component {
           </div>
         </section>
 
-        <iframe
+        {/* <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.490000269576!2d18.068258816195065!3d59.32477271842987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77e2605c0b5b%3A0x6f7ac4c3208c1e7f!2sSkomakargatan%2024A%2C%20111%2029%20Stockholm!5e0!3m2!1sen!2sse!4v1597995301126!5m2!1sen!2sse"
           title="google map" style={{ width: '100%', height: '500px', border: '0' }} frameBorder="0" allowFullScreen="" aria-hidden="false"
-          tabIndex="0"></iframe>
+          tabIndex="0"></iframe> */}
       </div>
     )
   }

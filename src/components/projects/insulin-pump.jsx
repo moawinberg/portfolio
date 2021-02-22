@@ -62,7 +62,6 @@ export default class InsulinPump extends Component {
                   </div>
                 </div>
                 <p className="text-center mb-5"><img src="images/p3_large.jpg" alt="project" className="img-fluid" /></p>
-                <p className="text-center"><a href="pdfs/ProjectReportG1.pdf" className="button button--red">View Report</a></p>
               </div>
             </div>
           </div>

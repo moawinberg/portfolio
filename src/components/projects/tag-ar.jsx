@@ -57,7 +57,6 @@ export default class TagAr extends Component {
                 <video style={{ marginBottom: '5vh'}} className="img-fluid" controls>
                   <source src="videos/tagAR.mp4" type="video/mp4" />
                 </video>
-                <p className="text-center"><a href="pdfs/tagAR-Report.pdf" className="button button--red">View Report</a></p>
               </div>
             </div>
           </div>

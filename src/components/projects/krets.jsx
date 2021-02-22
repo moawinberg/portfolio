@@ -55,8 +55,6 @@ export default class Krets extends Component {
                   </div>
                 </div>
                 <p className="text-center mb-5"><img src="images/p6_large.png" alt="project" className="img-fluid" /></p>
-                <p className="text-center"><a href="https://www.krets.studio/" className="button button--red">Visit
-                Website</a></p>
               </div>
             </div>
           </div>

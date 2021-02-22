@@ -59,8 +59,6 @@ export default class InformationVisualization extends Component {
                 <iframe style={{ width: '100%', height: '500px', marginBottom: '5vh' }}
                   src="https://docs.google.com/presentation/d/e/2PACX-1vTTdGQkTJ6-1GZ8HvSUa64I3ZXuIS7k6vD6j2xJDaVcXy0-RORMkoQN_N3PzxBY52A9i76lfJxnFca0/embed?start=false&loop=false&delayms=3000"
                   frameBorder="0" allowFullScreen={true}></iframe>
-                <p className="text-center"><a href="https://moawinberg.github.io/ivis-project-2/"
-                  className="button button--red">Visit Website</a></p>
               </div>
             </div>
           </div>
